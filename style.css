@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    background-image: url('./bg.png');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+   
+  
+}
+.logo{
+    margin-right: 10px;
+    width: 90px;
+    margin-top: 10px;
+}
+
+nav{
+    padding: 20px 6%;
+    background-color: black;
+    color: white;
+    /* height: 15vh; */
+    display: flex;
+    /* justify-content: space-evenly; */
+}
+
+nav ul {
+    display: flex;
+    gap: 52px  ;
+    align-items: center;
+    margin-top: -2px;
+}
+
+nav ul li {
+    list-style: none;
+    margin-right: 5%;   
+}
+.button-small{
+    background-color: purple;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    white-space: nowrap;
+    border-radius: 9px     ;
+}
+
+.line{
+    border-left: 1px solid white;
+    border-width: thin;
+    height: 44px;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-top: 5px;
+}
+.navBtn{
+    margin-left: 42%
+}
+.hero{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+   
+ 
+}
+.hero h1{
+    font-size: 70px;
+    color: white;
+    font-weight: bold;
+  text-align: center;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+.hero p{
+    font-size: 25px;
+    color: white;
+   text-align: center;
+   font-family: 'Montserrat', sans-serif;
+   font-family: 'Poppins', sans-serif;
+   font-family: 'Roboto', sans-serif;
+ 
+   margin-top: 2%;
+}
+.button-large{
+    background-color: purple;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 22px;
+    margin: 4px 2px;
+    cursor: pointer;
+    white-space: nowrap;
+    border-radius: 10px   ;
+    font-weight: bold;
+
+}
+.navBtn1{
+   margin-left: 30%; 
+   margin-top: 6%;
+}
+
